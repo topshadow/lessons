@@ -27,7 +27,7 @@
         * javascript 条件语句,三元操作符
         * javascript 数组
         * javascript 对象
-        * javascript 函数
+种        * javascript 函数
 
 
 
@@ -71,7 +71,10 @@
 * javascript插件,html插件
 * 文件显示icon  (F1 输入icon)
 * github, git
-* 浏览器debug,Nodejs种debugge,debugger;
+* 浏览器debug,Nodejs中debugge,debugger语法;
+
+# 总结
+ 今天的主旨是回顾以往所学的东西,并在今后的开发中学会查手册,查资料,
 
 
 
