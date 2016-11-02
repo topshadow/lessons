@@ -6,9 +6,10 @@
 * ajax 
 * jquery
 * bootstrap 
-    > 开发项目
+    > [开发Cnode社区](https://cnodejs.org/)备选项目
 * 前端项目构建流程 高级主题
-* typescript 高级主题 
+    * gulp webpack  
+* es6,typescript 高级主题 
     > 开发项目
 * angular2 高级主题
     > 开发网站
@@ -124,7 +125,7 @@ javascript在浏览器中由三部分组成
  * 今天的主旨是回顾以往所学的东西
  * 在今后的开发中学会查手册,查资料
  * 配置开发工具,使用代码管理工具
- * 使用javascript 和调试
+ * 使用javascript 和调试,断点,尽量使用debugger语句或者断点，因为比console要能获取更多的信息
 
 
 
