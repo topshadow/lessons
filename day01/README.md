@@ -1,3 +1,4 @@
+
 # 课程大纲
 * html5
 * css
@@ -27,22 +28,14 @@
         * javascript 条件语句,三元操作符
         * javascript 数组
         * javascript 对象
-种        * javascript 函数
+        * javascript 函数
 
 
+
+[提示:Markdown语法参考](http://www.appinn.com/markdown/)
 
 ## 回顾HTML5,css
 
-
-* 常用元素
-```html
-// 内联元素与块级元素的区别
-// 内联元素
-
-// 块级元素
-<div>,<textarea>,
-
-```
 * 注释
 * css相关知识:[css相关知识](https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS)
     * [css-w3cschool](http://www.runoob.com/cssref/css-ref-aural.html)
@@ -52,29 +45,86 @@
     * [媒体查询](https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Media_queries)
     * [盒模型](https://developer.mozilla.org/zh-CN/docs/Learn/Getting_started_with_the_web/CSS_basics)
 
-* HTML5 媒体元素
-    <video></video>
-    <audio></audio>
 * 页面必要元素<meata charst=""><title></title>等
 * html5 新元素:localStorage,sessionStorage 
     * 用于存储一些数据,localStorage浏览器关闭后重启依然可以读取,sessionStorage在网页关闭后就不会存在
-
-
 
 * 学会zencode快速敲代码,
 * 查手册[w3c.org](https://www.w3.org/) [MDN](https://developer.mozilla.org/zh-CN/),看不懂英文文档转中文阅读,将链接的en替换成zh
     * [查询table元素](https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableElement),用typescript例子来调用table的api
 
 ## 编辑器的使用
-* 主题设置,用户设置:例如调整字体
+* 设置
+    * 用户设置
+        * 字体设置
+        *  **格式化保存设置**
+    * 主题设置
+:例如调整字体
 * 保存代码时格式化(formatonsave=true)
-* javascript插件,html插件
-* 文件显示icon  (F1 输入icon)
-* github, git
-* 浏览器debug,Nodejs中debugge,debugger语法;
+* 插件
+    * html-preview  边看边写HTML代码
+    * markdown-preview 边看边写Markdown
+* 文件显示icon  (F1 输入icon),命令助手(F1 )
+* 代码管理工具
+    * github 注册
+    * git 安装 
+*  debug,
+    * Nodejs中debug
+    * 浏览器中的debug
+    * debugger语法;
+
+## javascript day01
+* javascript 概述
+* javascript 基础语法
+* 变量与常量
+* 数据类型
+* 总结和答疑
+
+
+### javascript 基础
+[javascript简介](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
+>JavaScript ( JS ) 是一种轻量级，解释型的，有着 一等函数 (First-class Function) 的编程语言。虽然它是作为开发web页面的脚本语言而出名的，但是在很多非浏览器环境中也使用JavaScript，例如 node.js 和 Apache CouchDB。JS是一种基于原型、多范式的动态脚本语言，并且支持面向对象、命令式和声明式（如：函数式编程）编程风格。了解更多 关于JavaScript。
+
+重点:
+* 解释型语言
+* First Class Function
+* 动态类型
+
+运行javascript的引擎
+* 浏览器中的内核
+* Chrome的V8解释引擎
+
+javascript在浏览器中由三部分组成
+* 核心 ECMAScript
+* BOM 浏览器对象模型(Browser,Object Model)
+* DOM 文档对象模型(Document,Object Model)
+
+
+## 学习javascript核心
+[javascript 的运行方式](./examples/use-javascript.html)
+* 单独的解释引擎来运行
+    * 安装Nodejs 
+* [在浏览器中运行javascript](./examples/use-javascript.browser.html)
+    * html元素绑定事件
+    * script标签运行
+    * 外联js脚本
+
+## 调试javascript
+* nodejs 
+    * 打断点
+    * debugger;
+* 浏览器中调试
+    * js文档代码打断点
+    * debugger;
+
+
+
 
 # 总结
- 今天的主旨是回顾以往所学的东西,并在今后的开发中学会查手册,查资料,
+ * 今天的主旨是回顾以往所学的东西
+ * 在今后的开发中学会查手册,查资料
+ * 配置开发工具,使用代码管理工具
+ * 使用javascript 和调试
 
 
 
